@@ -1,0 +1,41 @@
+#fotologo{
+    width: 125px;
+    height: 125px;
+}
+#fotoinsta{
+    width: 75px;
+    height: 75px;
+}
+body{
+    color: white;
+    background-color: black;
+}
+footer{
+    text-align: right;
+}
+#botoninicio{
+    background-color: black;
+}
+.enlace {
+    color: #ffffff; 
+    margin-right: 100px;
+    text-align: right;    
+ 
+    
+}
+.enlace:hover {
+    color: #ff5733;                  /* Nuevo color cuando el ratón pasa por encima */
+}
+#header{
+    display: flex;                      /* Utilizamos flexbox para alinear los elementos */
+    align-items: center;                /* Alinea los elementos verticalmente al centro */     
+    justify-content: flex-start;        /* Alinea los elementos hacia el inicio del contenedor */
+    font-family: 'Times New Roman', Times, serif;
+}
+#tittlepage{
+    flex-grow: 1;                       /* Hace que el título ocupe el espacio restante */
+
+    text-align: center;
+    margin: 0;                           /* Elimina márgenes para evitar desplazamiento */
+
+}
